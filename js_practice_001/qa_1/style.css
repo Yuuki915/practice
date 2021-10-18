@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+}
+.title {
+  margin: 2rem 0;
+  font-size: 2rem;
+}
+.btn {
+  padding: 10px 30px;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
