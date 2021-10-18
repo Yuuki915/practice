@@ -1,0 +1,13 @@
+body {
+  margin: 0%;
+  text-align: center;
+}
+.question{
+    margin: 2rem 0;
+}
+
+#btn {
+  text-align: right;
+  margin-top: 2rem;
+  padding: 10px 30px;
+}
