@@ -1,0 +1,18 @@
+.heroImg {
+  width: 100%;
+  /* height: 100vh; */
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+.hero {
+  position: relative;
+}
+.siteTitle {
+  font-size: 4rem;
+  font-weight: 400;
+  position: absolute;
+  top: 45%;
+  left: 70%;
+  transform: translate(-70%, -45%);
+}
