@@ -1,0 +1,16 @@
+.workimg {
+  width: 17rem;
+  height: auto;
+}
+
+.work-container {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.titles {
+  padding: 1rem;
+  background-color: #fff;
+}
+.titles p {
+  line-height: 2rem;
+}

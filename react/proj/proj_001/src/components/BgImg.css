@@ -1,0 +1,10 @@
+.bgimg {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  filter: blur(3px);
+}
