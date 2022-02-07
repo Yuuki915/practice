@@ -7,3 +7,22 @@
 img {
   vertical-align: bottom;
 }
+
+.main {
+  position: relative;
+  backdrop-filter: blur(3px);
+}
+.bg-scroll {
+  /* position: fixed;
+  top: 0px; */
+  /* left: 0px; */
+  /* z-index: -1; */
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./components/imgs/about.jpg");
+  background-attachment: fixed;
+  /* background-size: 100% 100vh; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}

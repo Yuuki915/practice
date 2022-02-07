@@ -6,7 +6,7 @@ import "./BgImg.css";
 function BgImg() {
   return (
     <div className="bgimg">
-      <img className="bgimg" src={bgImg} alt="" />
+      <img src={bgImg} alt="" />
     </div>
   );
 }
