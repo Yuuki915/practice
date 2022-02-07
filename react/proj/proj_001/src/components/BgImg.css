@@ -2,7 +2,11 @@
   position: sticky;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
+  height: 100vh;
+}
+.bgimg img {
+  width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: 50% 50%;
