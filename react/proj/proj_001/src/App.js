@@ -8,9 +8,11 @@ function App() {
   return (
     <div className="App">
       <Hero />
+
       <div id="main" className="bg-scroll">
         {/* <BgImg /> */}
         <About />
+
         <Works />
       </div>
     </div>

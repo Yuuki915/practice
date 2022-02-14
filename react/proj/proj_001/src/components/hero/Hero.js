@@ -1,12 +1,13 @@
-import React from "react";
-import { useState } from "react";
-import heroImg from "../imgs/hero.jpg";
+import React, { useState } from "react";
 import styled from "styled-components";
+import heroImg from "../imgs/hero.jpg";
 import "./Hero.css";
 
 const Hero = () => {
   const [imgScale, setImgScale] = useState(1);
-  const isBigger = () => {
+
+  const handleScroll = () => {
+    console.log("hey hey ho");
     setImgScale(imgScale + 0.1);
   };
 
@@ -21,7 +22,8 @@ const Hero = () => {
 
   return (
     <div className="hero">
-      <HeroImg onScroll={isBigger} />
+      <HeroImg onScroll={handleScroll} />
+
       <h1 className="siteTitle">
         <span>Yuuki Hori</span>
       </h1>
