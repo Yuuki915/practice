@@ -12,12 +12,13 @@ function About() {
     <div className="about">
       <div className="about-container">
         <H1s h1={about.h1} />
+
         <p>
-          ;hsjdkbfa;kjwfbns;kajnca;wejfba;j
-          <br />
-          sk ;awljbfn;wajkbsdf ;jdksnbmfa;lkwenfl;
-          <br />
-          jlkngfjbal;jgna;lndlknaowlsjbm,nc
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+          ullamcorper egestas sapien vel posuere. Sed turpis dolor, auctor
+          blandit lorem ut, vestibulum tincidunt nisl. Integer quis augue sit
+          amet arcu ultrices lobortis. Sed in lacus scelerisque, placerat magna
+          sed, dapibus nisl. In consectetur tellus eu pellentesque dapibus.
         </p>
       </div>
     </div>
