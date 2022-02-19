@@ -15,7 +15,7 @@ export default function ScrollTest() {
           overflow: "scroll",
         }}
         onScroll={({ target }) => {
-          setCount(target.scrollTop);
+          setCount(Math.floor((target.scrollTop / 202) * 100));
         }}
       >
         <div
@@ -28,14 +28,23 @@ export default function ScrollTest() {
         />
       </div>
 
-      <img
-        src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rd.com%2Flist%2Fcutest-dog-breeds%2F&psig=AOvVaw0nwPkyp5B95-b9CKXAjjlx&ust=1644823320607000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJjohsCS_PUCFQAAAAAdAAAAABAJ"
+      <div
         style={{
           height: "500px",
-          width: "1000px",
-          // transform: `scale(${count})`,
+          width: "500px",
+          margin: "0 auto",
         }}
-      />
+      >
+        <img
+          src="https://www.thesprucepets.com/thmb/3-kxAtZmAchP9y7PVFH2h1dKxqY=/941x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/adorable-white-pomeranian-puppy-spitz-921029690-5c8be25d46e0fb000172effe.jpg"
+          style={{
+            height: "500px",
+            width: "500px",
+
+            transform: `scale(${count / 50})`,
+          }}
+        />
+      </div>
     </div>
   );
 }

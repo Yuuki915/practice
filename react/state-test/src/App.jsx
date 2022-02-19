@@ -22,8 +22,8 @@ export default function App() {
   );
 }
 
-// 1. Add initial value and show it in the CountForm.
+// // 1. Add initial value and show it in the CountForm.
 // 2. Add submit button in countForm.
-// 3. When you click the Submit button you can see console by adding CountForm.onSubit handler.
+// 3. When you click the Submit button you can see console by adding CountForm.onSubmit handler.
 // 4. Organize files by adding Components directory
 // Go to <ScrollText />
