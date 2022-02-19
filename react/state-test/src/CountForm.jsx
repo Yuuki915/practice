@@ -50,6 +50,8 @@ export default function CountForm(props) {
         <button onClick={handleUodateClick}>Update</button>
 
         <button onClick={handleResetClick}>Reset</button>
+
+        <button onClick={props.onSubmit}>Submit</button>
       </div>
     </div>
   );
