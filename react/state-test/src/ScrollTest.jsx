@@ -33,15 +33,17 @@ export default function ScrollTest() {
           height: "500px",
           width: "500px",
           margin: "0 auto",
+          overflow: "hidden",
         }}
       >
         <img
           src="https://www.thesprucepets.com/thmb/3-kxAtZmAchP9y7PVFH2h1dKxqY=/941x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/adorable-white-pomeranian-puppy-spitz-921029690-5c8be25d46e0fb000172effe.jpg"
+          alt=""
           style={{
             height: "500px",
             width: "500px",
 
-            transform: `scale(${count / 50})`,
+            transform: `scale(${1 + count / 50})`,
           }}
         />
       </div>
