@@ -1,0 +1,18 @@
+.skilles {
+  position: relative;
+}
+.skilles-container {
+  text-align: center;
+  margin: 0 10%;
+}
+
+.icon-container {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.icons {
+  padding: 1rem;
+  color: aliceblue;
+}
+.icon {
+  padding: 3rem;
+}

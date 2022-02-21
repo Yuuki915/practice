@@ -1,7 +1,6 @@
 import React from "react";
 import H1s from "../H1s";
 
-// import aboutImg from "../imgs/about.jpg";
 import "./About.css";
 
 function About() {
