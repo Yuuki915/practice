@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./card/Card";
-import AboutMe from "./eventComponent/AboutMe";
+// import AboutMe from "./eventComponent/AboutMe";
 
 import "./Main.css";
 
@@ -10,7 +10,7 @@ function Main(props) {
       <div className="container">
         <Card />
 
-        <AboutMe />
+        {/* <AboutMe /> */}
       </div>
     </div>
   );

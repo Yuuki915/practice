@@ -11,9 +11,8 @@ function InCard(props) {
         bottom: `${props.posiBottom}rem`,
         right: `${props.posiRight}rem`,
       }}
+      onClick={props.showInfo}
     >
-      {/* <div className="text">{props.text}</div> */}
-
       <div
         className="box"
         style={{
