@@ -1,0 +1,12 @@
+.footer {
+  position: relative;
+  height: 3rem;
+}
+.footer p {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
