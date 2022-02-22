@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Hero from "./components/hero/Hero";
 import About from "./components/about/About";
 import Works from "./components/work/Works";
-import Skilles from "./components/skiles/Skilles";
+import Skilles from "./components/skilles/Skilles";
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -27,33 +27,26 @@ function App() {
   }
 
   return (
-    <div
-      className="App"
-      style={{
-        height: "100vh",
-        width: "100vw",
-        overflow: "scroll",
-      }}
-      onScroll={getScrollVal}
-    >
-      <Hero scalePer={imgScalePer} />
+    <div className="App">
+      <div className="app-container" onScroll={getScrollVal}>
+        <Hero scalePer={imgScalePer} />
 
-      <div
-        id="main"
-        className="bg-scroll"
-        style={{
-          backgroundPosition: `30% ${bgScrollVal / 5}%`,
-        }}
-      >
-        <div className="bg-bl">
-          <About />
+        <div
+          className="main"
+          style={{
+            backgroundPosition: `30% ${20 + bgScrollVal / 5}%`,
+          }}
+        >
+          <div className="bg-bl">
+            <About />
 
-          <Works />
+            <Works />
 
-          <Skilles />
+            <Skilles />
+
+            <Footer />
+          </div>
         </div>
-
-        <Footer />
       </div>
     </div>
   );

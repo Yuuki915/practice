@@ -1,8 +1,15 @@
 .footer {
-  height: 4rem;
+  height: 3rem;
   width: 100vw;
   background-color: rgba(255, 255, 255, 0.3);
-  margin-top: 3rem;
   text-align: center;
-  align-items: center;
+  position: relative;
+}
+.footer p {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translateX(-50%);
 }
