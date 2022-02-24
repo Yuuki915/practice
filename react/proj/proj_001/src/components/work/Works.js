@@ -1,7 +1,6 @@
 import React from "react";
 import Work from "./Work";
 import H1s from "../H1s";
-
 import couesImg from "../imgs/work.jpg";
 
 import "./Works.css";

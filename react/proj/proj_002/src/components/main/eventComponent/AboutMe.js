@@ -5,12 +5,7 @@ import "./AboutMe.css";
 
 function AboutMe(props) {
   return (
-    <div
-      className="about-me"
-      style={{
-        display: "none",
-      }}
-    >
+    <div className={`about-me ${props.addAboutCss}`}>
       <div className="texts-and-img">
         <p className="name-in-about">Yuki Hori</p>
         <div className="texts">

@@ -1,0 +1,29 @@
+.works {
+  width: 65vw;
+  height: 50vh;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  background-color: rgb(189, 185, 185);
+  border-radius: 10px;
+  position: absolute;
+  top: 0%;
+  left: 5%;
+  overflow: scroll;
+
+  opacity: 0;
+  transition: 0.5s;
+  /* display: none; */
+}
+
+.is-worksOpen {
+  animation: trs 0.5s linear 0s;
+  opacity: 1;
+  /* display: block; */
+}
+@keyframes trs {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
