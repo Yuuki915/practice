@@ -15,6 +15,7 @@ function Card() {
     posiBottom: [3, 17],
     posiRight: [4, 18],
     posiFloat: { btm: [2, 4], rght: [2, 4] },
+    aniDelay: [0, 1, 2],
   };
 
   const [aboutDispCss, setAboutDispCss] = useState(false);
@@ -58,6 +59,7 @@ function Card() {
         showInfo={aboutShowInfo}
         floatBtm={inCard.posiFloat.btm[0]}
         floatRght={inCard.posiFloat.rght[0]}
+        aniDelay={inCard.aniDelay[1]}
       />
 
       <InCard
@@ -69,6 +71,7 @@ function Card() {
         showInfo={worksShowInfo}
         floatBtm={inCard.posiFloat.btm[1]}
         floatRght={inCard.posiFloat.rght[0]}
+        aniDelay={inCard.aniDelay[0]}
       />
 
       <InCard
@@ -80,6 +83,7 @@ function Card() {
         showInfo={skillesShowInfo}
         floatBtm={inCard.posiFloat.btm[0]}
         floatRght={inCard.posiFloat.rght[1]}
+        aniDelay={inCard.aniDelay[2]}
       />
     </div>
   );
