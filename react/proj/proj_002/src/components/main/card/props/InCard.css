@@ -5,12 +5,15 @@
   padding: 1rem 0;
   transition: 0.7s;
 
-  /* animation: float 7s 0s infinite; */
+  /* animation: float 5s 0s infinite alternate ease-in-out; */
 }
 .in-card:hover {
   transform: translate(5px, 5px);
+  animation-play-state: paused;
 }
-
+.in-card:hover .box {
+  transform: scale(1.02);
+}
 .text {
   color: #333;
   margin: auto 3rem;
@@ -22,24 +25,23 @@
   width: 11rem;
   height: 11rem;
   border-radius: 50%;
-  box-shadow: 40px 10px 5px rgba(185, 184, 184, 0.2);
+  box-shadow: 30px 10px 5px rgba(185, 184, 184, 0.2);
   transition: 0.7s;
-  /* animation: shadow 7s 0s infinite; */
 
   cursor: pointer;
 }
 .box:hover {
-  box-shadow: 30px 10px 5px rgba(104, 103, 103, 0.2);
+  box-shadow: 15px 10px 5px rgba(104, 103, 103, 0.2);
 }
 .box-circle {
   position: absolute;
-  top: 3rem;
+  top: 3.2rem;
   left: 0;
-  width: 9.5rem;
-  height: 9.5rem;
+  width: 10rem;
+  height: 10rem;
   border-radius: 50%;
   border: 3px solid rgba(221, 221, 221, 0.4);
-  z-index: -1;
+  z-index: -2;
 }
 
 .text-in-box {
@@ -54,23 +56,4 @@
   left: 50%;
   color: #333;
   font-size: 3rem;
-}
-
-@keyframes float {
-  0%,
-  100% {
-    transform: translate(5px, 5px);
-  }
-  50% {
-    transform: translate(-5px, -5px);
-  }
-}
-@keyframes shadow {
-  0%,
-  100% {
-    box-shadow: 30px 10px 5px rgba(104, 103, 103, 0.2);
-  }
-  50% {
-    box-shadow: 40px 10px 5px rgba(185, 184, 184, 0.2);
-  }
 }
