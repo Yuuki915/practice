@@ -12,6 +12,27 @@
   transition: 0.5s;
 }
 
+.skilles-title {
+  color: #fff;
+  font-size: 2rem;
+  padding: 1.5rem 0 0;
+}
+.skilles .icon-container {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.skilles-title {
+  padding: 1.5rem 0 0;
+  color: #fff;
+  font-size: 2rem;
+}
+.icons {
+  padding: 1rem;
+  color: aliceblue;
+}
+.icon {
+  padding: 1rem;
+}
+
 .is-skillesOpen {
   animation: show 1s linear 0s;
   animation-fill-mode: forwards;
@@ -24,5 +45,15 @@
   to {
     opacity: 1;
     left: 5%;
+  }
+}
+
+@media (max-width: 800px) {
+  .skilles {
+    position: static;
+    left: 0%;
+
+    width: 90vw;
+    margin: 0 0 1rem 2rem;
   }
 }

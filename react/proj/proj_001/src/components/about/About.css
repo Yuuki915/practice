@@ -5,3 +5,13 @@
   text-align: center;
   margin: 0 30%;
 }
+
+.about-texts {
+}
+.text-head {
+  font-size: 23px;
+  letter-spacing: 2px;
+}
+.text-body {
+  letter-spacing: 1px;
+}

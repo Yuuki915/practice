@@ -8,6 +8,7 @@ import {
   faReact,
   faSass,
   faPhp,
+  faPython,
 } from "@fortawesome/free-brands-svg-icons";
 
 import "./Skilles.css";
@@ -29,6 +30,7 @@ export default function Skilles() {
             <FontAwesomeIcon icon={faReact} size="5x" className="icon" />
             <FontAwesomeIcon icon={faSass} size="5x" className="icon" />
             <FontAwesomeIcon icon={faPhp} size="5x" className="icon" />
+            <FontAwesomeIcon icon={faPython} size="5x" className="icon" />
           </div>
         </div>
       </div>

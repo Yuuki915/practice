@@ -1,8 +1,16 @@
 .main {
+  width: 100%;
   height: calc(100vh - 8rem);
   position: relative;
+  overflow: hidden;
 }
 .container {
   height: auto;
   width: auto;
+}
+
+@media (max-width: 800px) {
+  .main {
+    overflow: scroll;
+  }
 }
