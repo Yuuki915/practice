@@ -1,0 +1,36 @@
+.work {
+  width: calc(65vw - 40%);
+  height: 100%;
+  margin: 0 20%;
+}
+.work-container {
+  height: 90%;
+}
+.work-img {
+  width: 17rem;
+  height: 12rem;
+  background-color: aliceblue;
+  margin: 1rem auto;
+}
+.work-text {
+  color: #fff;
+}
+
+.work-text h3 {
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+.work-text p {
+  letter-spacing: 1px;
+}
+
+@media (max-width: 800px) {
+  .work {
+    width: 50vw;
+    margin: 0 10%;
+  }
+  .work-container {
+    position: static;
+    left: 5%;
+  }
+}

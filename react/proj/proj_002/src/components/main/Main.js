@@ -9,8 +9,6 @@ function Main(props) {
     <div className="main">
       <div className="container">
         <Card />
-
-        {/* <AboutMe /> */}
       </div>
     </div>
   );

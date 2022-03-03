@@ -4,11 +4,12 @@
 }
 .skilles-container {
   text-align: center;
-  margin: 0 10%;
+  margin: 0 20%;
 }
 
 .icon-container {
   background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
 .icons {
   padding: 1rem;

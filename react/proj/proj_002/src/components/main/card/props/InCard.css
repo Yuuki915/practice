@@ -57,3 +57,9 @@
   color: #333;
   font-size: 3rem;
 }
+
+@media (max-width: 800px) {
+  .in-card {
+    display: none;
+  }
+}
