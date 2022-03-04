@@ -2,7 +2,7 @@ import "./App.css";
 import Question from "./components/Question";
 import Option from "./components/Option";
 import Button from "./components/Button";
-import OptionList from "./OptionList";
+// import OptionList from "./OptionList";
 
 const questions = [
   { id: 1, ask1: "あんた何型なん？" },
