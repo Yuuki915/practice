@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo } from "react";
 import "./App.css";
 import Timer from "./components/Timer";
 import Trivia from "./components/Trivia";
-import Start from "../../quiz02/src/components/Start";
+import Start from "./components/Start";
 
 function App() {
   const [username, setUsername] = useState(null);
