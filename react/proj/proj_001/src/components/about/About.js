@@ -15,12 +15,12 @@ function About() {
         <div className="about-texts">
           <p className="text-head">A Front-end Developer based in Vancouver</p>
           <p className="text-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-            ullamcorper egestas sapien vel posuere. Sed turpis dolor, auctor
-            blandit lorem ut, vestibulum tincidunt nisl. Integer quis augue sit
-            amet arcu ultrices lobortis. Sed in lacus scelerisque, placerat
-            magna sed, dapibus nisl. In consectetur tellus eu pellentesque
-            dapibus.
+            Hi, I am Yuki Hori from Japan. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. In ullamcorper egestas sapien vel
+            posuere. Sed turpis dolor, auctor blandit lorem ut, vestibulum
+            tincidunt nisl. Integer quis augue sit amet arcu ultrices lobortis.
+            Sed in lacus scelerisque, placerat magna sed, dapibus nisl. In
+            consectetur tellus eu pellentesque dapibus.
           </p>
         </div>
       </div>
