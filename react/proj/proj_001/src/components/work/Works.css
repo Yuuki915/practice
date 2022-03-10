@@ -1,6 +1,6 @@
 .works {
   position: relative;
-  height: 100vh;
+  height: 110vh;
 }
 
 .works-container {
@@ -17,6 +17,7 @@
   height: 80vh;
   overflow-x: scroll;
   padding: 0 2rem;
+  margin: 0 10%;
 }
 
 @media (min-width: 950px) {

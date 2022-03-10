@@ -6,6 +6,7 @@ import couesImg from "../imgs/work.jpg";
 import "./Works.css";
 
 function Works() {
+  // const skills = [];
   const works = {
     h1: "Works",
     title: ["COUES", "COUES", "COUES"],

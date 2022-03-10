@@ -11,16 +11,16 @@ import {
   faPython,
 } from "@fortawesome/free-brands-svg-icons";
 
-import "./Skilles.css";
+import "./Skills.css";
 
-export default function Skilles() {
-  const skilles = {
-    h1: "Skilles",
+export default function Skills() {
+  const skills = {
+    h1: "Skills",
   };
   return (
-    <div className="skilles">
-      <div className="skilles-container">
-        <H1s h1={skilles.h1} />
+    <div className="skills">
+      <div className="skills-container">
+        <H1s h1={skills.h1} />
 
         <div className="icon-container">
           <div className="icons">

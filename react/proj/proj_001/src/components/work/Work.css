@@ -12,6 +12,7 @@
   padding: 1rem;
 }
 .work-container {
+  padding: 1.5rem;
   height: auto;
   display: flex;
   justify-content: space-evenly;
@@ -19,8 +20,10 @@
 }
 
 .titles {
+  width: 60%;
+  margin: 1rem;
   padding: 1rem;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 .titles p {
   line-height: 2rem;
