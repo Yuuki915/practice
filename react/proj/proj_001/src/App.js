@@ -3,8 +3,9 @@ import React, { useState } from "react";
 import Hero from "./components/hero/Hero";
 import About from "./components/about/About";
 import Works from "./components/work/Works";
-import Skilles from "./components/skilles/Skilles";
+import Skills from "./components/skills/Skills";
 import Footer from "./components/footer/Footer";
+import Contact from "./components/contact/Contact";
 
 function App() {
   const [imgScale, setImgScale] = useState(1);
@@ -42,7 +43,9 @@ function App() {
 
             <Works />
 
-            <Skilles />
+            <Skills />
+
+            <Contact />
 
             <Footer />
           </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import Lang from "./Lang";
 
 import "./Work.css";
 
@@ -6,10 +7,18 @@ function Work(props) {
   return (
     <div className="work">
       <div className="work-container">
-        <img className="workimg" src={props.src} alt="" />
-        <div className="titles">
+        <div className="workimg-div">
+          <img className="workimg" src={props.src} alt="" />
           <h2>{props.title}</h2>
-          <p>{props.text}</p>
+        </div>
+        <div className="work-discription">
+          <p className="lang-in-work">
+            <Lang langs1={props.langs1} />
+            <Lang langs2={props.langs2} />
+            <Lang langs3={props.langs3} />
+            <Lang langs4={props.langs4} />
+          </p>
+          {props.text}
         </div>
       </div>
     </div>
