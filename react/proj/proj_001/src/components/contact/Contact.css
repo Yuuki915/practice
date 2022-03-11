@@ -1,6 +1,6 @@
 .contact {
   position: relative;
-  height: 110vh;
+  height: 70vh;
 }
 .contact-container {
   width: 100%;
@@ -10,4 +10,19 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.contact-info {
+  text-align: center;
+  margin: 0 20%;
+}
+.contact-info a {
+  text-decoration: none;
+  color: black;
+}
+.icons-in-contact {
+  margin: 1rem;
+}
+.icon-in-contact {
+  margin: 0.5rem;
 }

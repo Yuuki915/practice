@@ -11,11 +11,8 @@ function Works() {
     h1: "Works",
     title: ["COUES", "COUES", "COUES"],
     src: [couesImg, couesImg, couesImg],
-    text: [
-      "HTML, CSS, JavaScript, React",
-      "HTML, CSS, JavaScript, React",
-      "HTML, CSS, JavaScript, React",
-    ],
+    text: ["nflakj", "np;ajndf", "jgnpaojwne"],
+    lang: ["HTML", "CSS", "JavaScript", "React", "Sass", "PHP"],
   };
 
   return (
@@ -27,6 +24,10 @@ function Works() {
             title={works.title[0]}
             src={works.src[0]}
             text={works.text[0]}
+            langs1={works.lang[0]}
+            langs2={works.lang[1]}
+            langs3={works.lang[2]}
+            langs4={works.lang[5]}
           />
           <Work
             title={works.title[1]}

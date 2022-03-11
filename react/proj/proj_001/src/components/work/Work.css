@@ -19,12 +19,15 @@
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
-.titles {
+.work-discription {
   width: 60%;
   margin: 1rem;
   padding: 1rem;
   background-color: rgba(255, 255, 255, 0.6);
 }
-.titles p {
+.lang-in-work {
   line-height: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

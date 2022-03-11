@@ -11,11 +11,14 @@ function Work(props) {
           <img className="workimg" src={props.src} alt="" />
           <h2>{props.title}</h2>
         </div>
-        <div className="titles">
-          <p>
-            <Lang />
-            {props.text}
+        <div className="work-discription">
+          <p className="lang-in-work">
+            <Lang langs1={props.langs1} />
+            <Lang langs2={props.langs2} />
+            <Lang langs3={props.langs3} />
+            <Lang langs4={props.langs4} />
           </p>
+          {props.text}
         </div>
       </div>
     </div>
