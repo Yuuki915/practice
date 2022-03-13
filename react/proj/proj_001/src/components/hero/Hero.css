@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100&display=swap");
+
 .hero {
   position: sticky;
   top: 0;
@@ -15,14 +18,40 @@
   background-size: cover;
   background-position: 40% 50%;
 }
+.bg-dark {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 40%,
+    rgba(214, 214, 214, 0.7)
+  );
+
+  backdrop-filter: brightness(80%);
+}
 .siteTitle {
-  color: #fff;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  font-size: 4rem;
-  font-weight: 400;
-  letter-spacing: 1px;
+  min-width: 25rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.5);
+  font-family: "Parisienne", cursive;
+
+  /* font-family: "Dancing Script", cursive; */
+  /* font-family: "Cinzel", serif; */
+
   position: absolute;
   top: 45%;
-  left: 73%;
-  transform: translate(-70%, -45%);
+  right: 20%;
+  transform: translate(20%, -45%);
+}
+.hero-name {
+  font-size: 4rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.hero-sub {
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-align: center;
 }

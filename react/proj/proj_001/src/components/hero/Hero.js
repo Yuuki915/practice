@@ -9,9 +9,12 @@ const Hero = (props) => {
           transform: `scale(${1 + props.scalePer})`,
         }}
       ></div>
-      <h1 className="siteTitle">
-        <span>Yuuki Hori</span>
-      </h1>
+      <div className="bg-dark">
+        <h1 className="siteTitle">
+          <p className="hero-name">Yuuki Hori</p>
+          <p className="hero-sub">Front-end Developer</p>
+        </h1>
+      </div>
     </div>
   );
 };

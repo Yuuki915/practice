@@ -9,6 +9,7 @@ export default function Lang(props) {
         {props.langs2}
         {props.langs3}
         {props.langs4}
+        {props.langs5}
       </div>
     </div>
   );
