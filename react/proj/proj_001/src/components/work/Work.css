@@ -67,3 +67,13 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+@media (max-width: 950px) {
+  .work-container {
+    flex-direction: column;
+  }
+  .work-discription {
+    margin: auto;
+    width: 70%;
+  }
+}

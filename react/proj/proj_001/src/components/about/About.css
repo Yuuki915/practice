@@ -19,3 +19,9 @@
   letter-spacing: 1.5px;
   line-height: 1.4rem;
 }
+
+@media (max-width: 950px) {
+  .about-container {
+    margin: 0 20%;
+  }
+}
