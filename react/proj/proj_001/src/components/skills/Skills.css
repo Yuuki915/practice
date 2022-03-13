@@ -1,7 +1,6 @@
 .skills {
   color: #555;
   position: relative;
-  padding-bottom: 3rem;
 }
 .skills-container {
   text-align: center;
@@ -18,4 +17,11 @@
 }
 .icon {
   padding: 3rem;
+}
+
+@media (max-width: 950px) {
+  .icon {
+    font-size: 3rem;
+    padding: 1rem;
+  }
 }
