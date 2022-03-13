@@ -39,7 +39,7 @@ export default function Contact() {
                 className="icon-in-contact"
               />
             </a>
-            <a href="#">
+            <a href="/">
               <FontAwesomeIcon
                 icon={faFacebookSquare}
                 size="2x"

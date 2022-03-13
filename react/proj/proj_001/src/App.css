@@ -1,5 +1,6 @@
 * {
-  font-family: "Parisienne", cursive;
+  /* font-family: "Parisienne", cursive; */
+  /* font-family: "Roboto", sans-serif; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,6 +16,8 @@ img {
 }
 .main {
   position: relative;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
 
   background-image: url("./components/imgs/about.jpg");
   background-attachment: fixed;

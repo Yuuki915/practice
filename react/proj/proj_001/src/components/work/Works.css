@@ -1,6 +1,7 @@
 .works {
+  color: #555;
   position: relative;
-  height: 110vh;
+  height: 120vh;
 }
 
 .works-container {

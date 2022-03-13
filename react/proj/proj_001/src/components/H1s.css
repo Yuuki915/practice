@@ -1,7 +1,12 @@
 .h1-container {
-  padding: 5rem 0;
+  padding: 5rem 0 3rem;
 }
 .h1-container-title {
+  font-size: 2rem;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+
+  font-weight: 500;
   letter-spacing: 2px;
   text-align: center;
+  font-family: "Parisienne", cursive;
 }
