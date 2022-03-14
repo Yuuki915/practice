@@ -17,6 +17,9 @@
   background-image: url("../imgs/hero.jpg");
   background-size: cover;
   background-position: 40% 50%;
+
+  border-bottom-left-radius: -2000px -200px;
+  border-bottom-right-radius: -2000px -200px;
 }
 .bg-dark {
   width: 100vw;
