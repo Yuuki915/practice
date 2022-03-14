@@ -18,13 +18,21 @@ img {
   position: relative;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
+  /* box-shadow: "0 0 15px 20px rgba(255, 255, 255, 0.7), inset rgb(255 255 255 / 70%) 0px 0px 5px 20px"; */
+  border-top: 1px solid #555;
 
   background-image: url("./components/imgs/about.jpg");
   background-attachment: fixed;
-  background-size: 100% 50vh;
+  /* background-size: 100% 50vh; */
   background-repeat: no-repeat;
   background-size: cover;
   backdrop-filter: blur(10px);
+  border-top-left-radius: 2000px 200px;
+  border-top-right-radius: 2000px 200px;
+  margin-left: -100px;
+  margin-right: -100px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .bg-bl {
   backdrop-filter: blur(5px);

@@ -36,6 +36,8 @@ function App() {
           className="main"
           style={{
             backgroundPosition: `30% ${20 + bgScrollVal / 5}%`,
+            // boxShadow:
+            //   "0 0 15px 15px rgba(255, 255, 255, 0.7), inset rgb(255 255 255 / 0.7) 0px 0px 5px 20px",
           }}
         >
           <div className="bg-bl">
