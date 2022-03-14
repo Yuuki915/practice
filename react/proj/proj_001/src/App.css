@@ -18,7 +18,6 @@ img {
   position: relative;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  /* box-shadow: "0 0 15px 20px rgba(255, 255, 255, 0.7), inset rgb(255 255 255 / 70%) 0px 0px 5px 20px"; */
   border-top: 1px solid #555;
 
   background-image: url("./components/imgs/about.jpg");
