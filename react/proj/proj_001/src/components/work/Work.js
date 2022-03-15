@@ -8,10 +8,21 @@ function Work(props) {
     <div className="work">
       <a href="/">
         <div className="work-container">
-          <div className="workimg-div">
-            <img className="workimg" src={props.src} alt="" />
+          <div className="img-and-sitename">
+            <div className="workimg-div">
+              <img className="workimg" src={props.src} alt="" />
+              <div className="jump-to-pages">
+                <a href="/">
+                  <div className="visit-page">Visit</div>
+                </a>
+                <a href="/">
+                  <div className="view-code">Code</div>
+                </a>
+              </div>
+            </div>
             <h2 className="sitetitle">{props.title}</h2>
           </div>
+
           <div className="work-discription">
             <p className="lang-in-work">
               <Lang langs1={props.langs1} />
