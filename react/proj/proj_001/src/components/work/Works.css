@@ -26,3 +26,9 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 670px) {
+  .slide {
+    margin: 0 1rem;
+  }
+}
