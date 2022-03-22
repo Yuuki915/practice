@@ -11,6 +11,7 @@ function Work(props) {
           <div className="img-and-sitename">
             <div className="workimg-div">
               <img className="workimg" src={props.src} alt="" />
+              <h2 className="sitetitle">{props.title}</h2>
               <div className="jump-to-pages">
                 <a href="/">
                   <div className="visit-page">Visit</div>
@@ -20,7 +21,6 @@ function Work(props) {
                 </a>
               </div>
             </div>
-            <h2 className="sitetitle">{props.title}</h2>
           </div>
 
           <div className="work-discription">

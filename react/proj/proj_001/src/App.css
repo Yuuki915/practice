@@ -22,12 +22,13 @@ img {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 
-  background-image: url("./components/imgs/about.jpg");
+  background-color: #fff;
+  /* background-image: url("./components/imgs/about.jpg"); */
   background-position: 50% 50%;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(15px);
 
   border-top-left-radius: 2000px 200px;
   border-top-right-radius: 2000px 200px;
@@ -51,7 +52,7 @@ img {
   padding-right: 100px;
 }
 .bg-bl {
-  backdrop-filter: blur(7px);
+  backdrop-filter: blur(15px);
   border-top-left-radius: 2000px 200px;
   border-top-right-radius: 2000px 200px;
   margin-left: -100px;
