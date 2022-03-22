@@ -22,7 +22,7 @@
   display: flex;
   justify-content: center;
   align-items: end;
-  transition: 0.7s;
+  transition: 0.5s;
 }
 .visit-page,
 .view-code {
@@ -30,7 +30,7 @@
   margin: 1rem;
   padding: 0.5rem 1.5rem;
   border: 1.3px solid rgba(65, 105, 225, 0.7);
-  transition: 0.7s;
+  transition: 0.5s;
 }
 
 .visit-page:hover,
