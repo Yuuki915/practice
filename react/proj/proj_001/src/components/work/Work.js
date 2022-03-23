@@ -30,7 +30,7 @@ function Work(props) {
               <Lang langs3={props.langs3} />
               <Lang langs4={props.langs4} />
             </p>
-            {props.text}
+            <p className="text-in-work">{props.text}</p>
           </div>
         </div>
       </a>
