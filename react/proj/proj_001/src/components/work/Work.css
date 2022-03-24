@@ -22,7 +22,6 @@
 .jump-to-pages {
   display: flex;
   justify-content: center;
-  align-items: end;
   transition: 0.5s;
 }
 .visit-page,
