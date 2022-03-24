@@ -1,0 +1,20 @@
+.ShoppingBtns {
+  display: flex;
+  justify-content: right;
+}
+.ShoppingBtns p {
+  margin: 0.5rem;
+}
+
+.navMenu {
+  display: flex;
+  justify-content: center;
+}
+.navMenu a {
+  text-decoration: none;
+}
+.menu {
+  list-style: none;
+  margin: 0.5rem;
+  font-size: 10px;
+}

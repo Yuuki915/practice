@@ -1,0 +1,14 @@
+.recommend {
+  /* position: relative; */
+  min-height: 500px;
+}
+.recomImg {
+  display: inline-block;
+  width: 400px;
+}
+.recom-h2 {
+  margin: 1rem 0;
+}
+.recomImgBg {
+  width: 400px;
+}
