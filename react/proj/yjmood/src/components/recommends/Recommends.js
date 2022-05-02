@@ -61,6 +61,7 @@ export default function Recommends() {
       <Recommend
         style={recomStyle1}
         textStyle={h2BtnStyle1}
+
         src={items.src[0]}
         btn={items.btns[1]}
         h2={items.h2[0]}
@@ -73,6 +74,7 @@ export default function Recommends() {
         imgStyle={imgStyle}
         imgBgStyle={imgBgStyle}
         h2Style={h2Style}
+        
         src={items.src[1]}
         srcBg={items.src[2]}
         btn={items.btns[2]}
