@@ -10,6 +10,20 @@ import "./App.css";
 // import Posts from "./components/Posts";
 
 class App extends React.Component {
+  //  test
+  getDataHandler() {
+    fetch("http://localhost:8000/", {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+    }).then(async (res) => {
+      let result = await res.json();
+      console.log(result);
+    });
+  }
+
   async componentDidMount() {
     try {
       let res = await fetch("/isLoggedIn", {
@@ -97,6 +111,7 @@ class App extends React.Component {
         <div className="App">
           <div className="container">
             <LoginForm />
+            <button onClick={this.getDataHandler}>test</button>
           </div>
         </div>
       );
