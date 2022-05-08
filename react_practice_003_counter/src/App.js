@@ -1,13 +1,12 @@
 import "./App.css";
-import Counter from "./components/Counter";
+import Counter from "./component/normal/Counter";
+import CounterRedux from "./component/redux/CounterRedux";
 
 function App() {
   return (
-    <div
-      className="ui container"
-      style={({ marginTop: "20px", textAlign: "center" })}
-    >
+    <div className="App">
       <Counter />
+      <CounterRedux />
     </div>
   );
 }
