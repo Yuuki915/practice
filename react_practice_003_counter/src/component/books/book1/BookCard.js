@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 const BookCard = (props) => {
-  const [modal, setModal] = useState(false);
-  const toggle = () => setModal(!modal);
+  // const [modal, setModal] = useState(false);
+  // const toggle = () => setModal(!modal);
   return (
     <div>
       <div>
