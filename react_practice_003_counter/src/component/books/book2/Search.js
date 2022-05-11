@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useState } from "react";
+import Card from "./Card";
 
 export default function Search() {
   const [search, setSearch] = useState("");
@@ -11,7 +12,7 @@ export default function Search() {
   const getPost = async () => {
     axios
       .get(
-        `https://www.googleapis.com/books/v1/volumes?q=${search}&key=AIzaSyCEQd0GL7CTJv8KsClqZP-wyF1j35Bum0k`
+        `https://www.googleapis.com/books/v1/volumes?q=${search}&key=AIzaSyCEQd0GL7CTJv8KsClqZP-wyF1j35Bum0k&maxResults=40`
       )
       .then((res) => setBookData(res.data.items))
       .catch((err) => console.log(err));
@@ -35,14 +36,7 @@ export default function Search() {
         </button>
       </div>
 
-      <div>
-        {bookData.map((data) => (
-          <div>
-            <img src={data.volumeInfo.imageLinks.smallThumbnail} alt="img" />
-            <div>{data.volumeInfo.title}</div>
-          </div>
-        ))}
-      </div>
+      <Card data={bookData} />
     </div>
   );
 }
